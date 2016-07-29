@@ -1,0 +1,31 @@
+/*----main font styles----*/
+
+h1, h2, p {
+  font-family: Lato, sans-serif;
+  }
+h1 {
+	font-size: 42px;
+	color: #A9A9A9;
+}
+h2 {
+	font-size: 28px;
+	color: #989898;
+}
+
+p {
+	font-size: 14px;
+	color: #BEBEBE;
+}
+
+
+
+/*----main page elements----*/
+
+img {
+	width: 100%;
+}
+
+.header {
+	padding: 10px 0;
+	text-align: center;
+}
