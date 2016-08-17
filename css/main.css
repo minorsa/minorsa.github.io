@@ -5,7 +5,10 @@ h1, h2, p {
   }
 h1 {
 	font-size: 42px;
-	color: #A9A9A9;
+	color: #000;
+	position: relative;
+	top: 30%;
+
 }
 h2 {
 	font-size: 28px;
@@ -21,11 +24,15 @@ p {
 
 /*----main page elements----*/
 
-img {
-	width: 100%;
-}
+
 
 .header {
 	padding: 10px 0;
 	text-align: center;
+	background-image: url('../images/1200x505_MichaelWindow_v1a.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+
 }
