@@ -1,7 +1,7 @@
 /*----main font styles----*/
 
 h1, h2, p {
-  font-family: Lato, sans-serif;
+  font-family: Open Sans, sans-serif;
   }
 h1 {
 	font-size: 42px;
@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
 	font-size: 28px;
-	color: #989898;
+	color: #ffffff;
 }
 
 p {
@@ -26,150 +26,34 @@ p {
 
 
 .banner-image-properties {
-	padding: 10px 10px 10px 10px;
-	height: 500px;
+	height: 700px;
+	background-image: url('../images/IMG_2636v2.jpg');
+    position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 50%	;
-	margin-top: 10px;
+	background-position: 50% 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+
 }
 
-.banner-image-1 {
-	background-image: url('../images/1200x505_MichaelWindow_v1a.jpg');
+.layer {
+	background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.banner-image-2 {
-	background-image: url('../images/ah.jpg');	
-}
-
-.banner-image-3 {
-	background-image: url('../images/atat.jpg');
-}
-
-.banner-image-4 {
-	background-image: url('../images/bandana.jpg');	
-}
-
-.banner-image-5 {
-	background-image: url('../images/bed.jpg');
-}
-
-.banner-image-6 {
-	background-image: url('../images/bunny.jpg');	
-}
-.banner-image-7 {
-	background-image: url('../images/disappointment.jpg');
-}
-
-.banner-image-8 {
-	background-image: url('../images/dogbutts.jpg');	
-}
-.banner-image-9 {
-	background-image: url('../images/elephant.jpg');
-}
-
-.banner-image-10 {
-	background-image: url('../images/fishing.jpg');	
-}
-.banner-image-11 {
-	background-image: url('../images/foot.jpg');
-}
-
-.banner-image-12 {
-	background-image: url('../images/headrest.jpg');	
-}
-.banner-image-13 {
-	background-image: url('../images/hello.jpg');
-}
-
-.banner-image-14 {
-	background-image: url('../images/horizontal.jpg');	
-}
-.banner-image-15 {
-	background-image: url('../images/horizontal2.jpg');
-}
-
-.banner-image-16 {
-	background-image: url('../images/horizontal3.jpg');	
-}
-.banner-image-17 {
-	background-image: url('../images/icecream.jpg');
-}
-
-.banner-image-18 {
-	background-image: url('../images/nodogsoncouch.jpg');	
-}
-.banner-image-19 {
-	background-image: url('../images/park.jpg');
-}
-
-.banner-image-20 {
-	background-image: url('../images/parkgrass.jpg');	
-}
-.banner-image-21 {
-	background-image: url('../images/peekaboo.jpg');
-}
-
-.banner-image-22 {
-	background-image: url('../images/pendleton.jpg');	
-}
-.banner-image-23 {
-	background-image: url('../images/pillow.jpg');
-}
-
-.banner-image-24 {
-	background-image: url('../images/pillows.jpg');	
-}
-.banner-image-25 {
-	background-image: url('../images/redtoy.jpg');
-}
-
-.banner-image-26 {
-	background-image: url('../images/smile.jpg');	
-}
-.banner-image-27 {
-	background-image: url('../images/sneeze.jpg');
-}
-
-.banner-image-28 {
-	background-image: url('../images/snooze.jpg');	
-}
-.banner-image-29 {
-	background-image: url('../images/squirrel.jpg');
-}
-
-.banner-image-30 {
-	background-image: url('../images/stripes.jpg');	
-}
-.banner-image-31 {
-	background-image: url('../images/sweetspots.jpg');
-}
-
-.banner-image-32 {
-	background-image: url('../images/teeth.jpg');	
-}
-.banner-image-33 {
-	background-image: url('../images/thatface.jpg');
-}
-
-.banner-image-34 {
-	background-image: url('../images/thunder.jpg');	
-}
-.banner-image-35 {
-	background-image: url('../images/tongue2.jpg');
-}
-
-.banner-image-36 {
-	background-image: url('../images/toobright.jpg');	
-}
-.banner-image-37 {
-	background-image: url('../images/walk.jpg');
-}
-
-.banner-image-38 {
-	background-image: url('../images/wall.jpg');	
-}
-.banner-image-39 {
-	background-image: url('../images/whiteblanket.jpg');
+.vcenter {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    left: 0;
 }
 
