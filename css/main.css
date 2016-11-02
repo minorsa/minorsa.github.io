@@ -26,13 +26,16 @@ p {
 
 
 .banner-image-properties {
-	height: 700px;
-	background-image: url('../images/IMG_2636v2.jpg');
+	height: 800px;
+	background-image: url('../images/IMG_2636.jpg');
     position: relative;
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-color: rgba(0, 0, 0, 0.7);
+	background-repeat: no-repeat;
+	@media(min-width: 600px)
+	  height: 300px;
+	  
 
 }
 
